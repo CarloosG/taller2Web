@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><strong><em>RELLENA TU CV</em></strong></p>
+    <p>Nombre&nbsp;</p>
+    <p><input id="Nombre" name="Nombre" type="text" /></p>
+    <p>Apellidos</p>
+    <p><input id="Apellidos" maxlength="80" name="Apellidos" size="50" type="text" value="" /></p>
+    <p>Contrase&ntilde;a</p>
+    <p><input id="Contrase&ntilde;a" name="contrase&ntilde;a" type="text" /></p>
+    <p>Confirme contrase&ntilde;a</p>
+    <p><input id="Confirmacion" name="Confirmacion" type="text" /></p>
+    <p>Identificacion</p>
+    <p><select>
+    <option>TI</option>
+    <option>CC</option>
+    <option>Pasaporte</option>
+    <option>Cedula de extranjeria</option>
+    </select><input id="Identificacion" name="Identificacion" type="text" /></p>
+    <p>Sexo</p>
+    <p><input checked="checked" name="sexo" type="radio" value="hombre" /> Hombre <br /><input name="sexo" type="radio" value="mujer" /> Mujer</p>
+    <p>Incluir mi foto</p>
+    <p><input name="foto" type="file" /><br /><br /><input type="checkbox" /> Estudiante</p>
+    <fieldset style="width: 300px;"><legend>Datos personales</legend> Departamento <br /><select>
+    <option>Santander</option>
+    <option>Cundinamarca</option>
+    <option>Antioquia</option>
+    <option>Atlantico</option>
+    </select><br />Fecha de nacimiento <br /><input maxlength="2" name="dia" size="1" type="text" value="" /> de<select>
+    <option>Enero</option>
+    <option>Febrero</option>
+    <option>Marzo</option>
+    <option>Abril</option>
+    <option>Mayo</option>
+    <option>Junio</option>
+    <option>Julio</option>
+    <option>Agosto</option>
+    <option>Septiembre</option>
+    <option>Octubre</option>
+    <option>Noviembre</option>
+    <option>Diciembre</option>
+    </select>de <input maxlength="4" name="a&ntilde;o" size="5" type="text" value="" /> <br />Temas de inter&eacute;s <br />Administracion de bases de datosAnalisis y programacionArquitecturaCalidadERP,CRM,Business Intelligence</fieldset>
+    <p><input name="enviar" type="submit" value="Guardar cambios" /> <input name="limpiar" type="reset" value="Borrar los datos introducidos" /></p>
+</body>
+</html>
